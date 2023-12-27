@@ -1,1 +1,4 @@
-test
+={
+FILTER('Example School 2'A1:Z, LEN('Example School 2'!A1:A) > 0);
+FILTER('Example School 1'A1:Z, LEN('Example School 1'A1:A) > 0
+}
