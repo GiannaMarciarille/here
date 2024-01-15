@@ -2,3 +2,5 @@
 FILTER('Example School 2'A1:Z, LEN('Example School 2'!A1:A) > 0);
 FILTER('Example School 1'A1:Z, LEN('Example School 1'A1:A) > 0
 }
+
+=Query('Example Spreadsheet'!C:BC, "Select * Where UPPER(X) = 'YES' or UPPER(X) = 'UNSURE'",0 )
